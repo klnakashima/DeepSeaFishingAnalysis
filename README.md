@@ -13,10 +13,11 @@ The Analysis focuses on larger game fish to find out which boat and/or trip type
 
 Added Standard Meteorological Data gathered from ocean buoys [here](https://www.ndbc.noaa.gov/)
 
-Data Descriptions:
-#YY  MM DD hh mm WDIR WSPD GST  WVHT   DPD   APD MWD   PRES  ATMP  WTMP  DEWP  VIS PTDY  TIDE
-#yr  mo dy hr mn degT m/s  m/s     m   sec   sec degT   hPa  degC  degC  degC  nmi  hPa    ft
-2014 09 11 16 50 120  5.0  6.0   0.6     6   4.2 134 1016.5  29.3  30.5  24.4   MM +0.3    MM
+Data Descriptions from https://www.ndbc.noaa.gov/:
+
+#YY  MM DD hh mm WDIR WSPD GST  WVHT   DPD   APD MWD   PRES  ATMP  WTMP  DEWP  VIS PTDY
+#yr  mo dy hr mn degT m/s  m/s     m   sec   sec degT   hPa  degC  degC  degC  nmi  hPa
+2014 09 11 16 50 120  5.0  6.0   0.6     6   4.2 134 1016.5  29.3  30.5  24.4   MM +0.3
 
 WDIR 	Wind direction (the direction the wind is coming from in degrees clockwise from true N) during the same period used for WSPD. See Wind Averaging Methods
 
@@ -45,3 +46,4 @@ VIS 	Station visibility (nautical miles). Note that buoy stations are limited to
 PTDY 	Pressure Tendency is the direction (plus or minus) and the amount of pressure change (hPa)for a three hour period ending at the time of observation. (not in Historical files)
 
 TIDE 	The water level in feet above or below Mean Lower Low Water (MLLW).
+*Excluding TIDE since all values were 99/erroneous
